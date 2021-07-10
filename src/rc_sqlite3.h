@@ -6,9 +6,7 @@
  *          Copyright (c) 2018 Niyamaka.
  *          All Rights Reserved.
  ****************************************************************************/
-
-#ifndef _C_RC_SQLITE3_H
-#define _C_RC_SQLITE3_H 1
+#pragma once
 
 #include <sqlite3.h>
 #include <yuneta.h>
@@ -24,6 +22,4 @@ PUBLIC dba_persistent_t *dba_rc_sqlite3(void);
 
 #ifdef __cplusplus
 }
-#endif
-
 #endif
