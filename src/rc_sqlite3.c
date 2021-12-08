@@ -784,7 +784,7 @@ PRIVATE GBUFFER *sqlite_update_id(
         if(i > 0) {
             gbuf_printf(gbuf_script, ", ");
         }
-        gbuf_printf(gbuf_script, key);
+        gbuf_printf(gbuf_script, "%s", key);
         gbuf_printf(gbuf_script, " = ");
 
         int ret = write_db_value(gobj, gbuf_script, value);
