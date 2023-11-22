@@ -1,7 +1,7 @@
 ##############################################
 #   CMake
 ##############################################
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.11)
 project(yuneta-rc_sqlite C)
 include(CheckIncludeFiles)
 include(CheckSymbolExists)
